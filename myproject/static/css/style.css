@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    align-items: center;
+    background-color: blanchedalmond;
+    color: blue;
+}
+
+body{
+    place-content: center;
+    min-height: 100vh;
+    display: grid;
+
+}
+h1,p{
+    text-align: center;
+}
