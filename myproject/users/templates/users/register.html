@@ -8,6 +8,15 @@
 
         <section>
             <h1>Do Registration</h1>
+
+            <form class="form-with-validation" action="/users/register/" method="post">
+            
+            {% csrf_token %}
+
+            {{ form }}
+
+            <button class="form-submit">Submit</button>
+        </form>
         </section>
 
 {% endblock %}
